@@ -393,6 +393,9 @@ svg:hover {
   .nav {
     display: none;
   }
+  .work h5 {
+    color: rgb(154, 154, 154);
+  }
   .navsticky {
     display: none;
   }
