@@ -8,6 +8,7 @@
 body {
   transition: ease-in 0.3s;
 }
+
 .theme-dark {
   --main-bg: rgb(0, 0, 0);
   --nav-bg: hsla(0, 0%, 6%, 0.646);
@@ -198,7 +199,7 @@ h3 {
 }
 .card-1 {
   width: 30%;
-  height: 45vh;
+  height: 35vh;
   border-radius: 15px;
   background-color: var(--card-bg);
   border-bottom: 7px solid rgb(255, 94, 0);
@@ -216,7 +217,7 @@ h3 {
 }
 .card-2 {
   width: 30%;
-  height: 45vh;
+  height: 35vh;
   border-radius: 15px;
   background-color: var(--card-bg);
   border-bottom: 7px solid rgb(0, 136, 255);
@@ -224,7 +225,7 @@ h3 {
 }
 .card-3 {
   width: 30%;
-  height: 45vh;
+  height: 35vh;
   border-radius: 15px;
   background-color: var(--card-bg);
   border-bottom: 7px solid rgb(255, 238, 0);
