@@ -17,6 +17,10 @@ body {
   --navhover: rgb(148, 148, 148);
   --hover: hsl(212, 67%, 58%);
 }
+.bgnav {
+  background-color: white;
+  padding: 0%;
+}
 
 .theme-light {
   --main-bg: rgb(228, 228, 228);
@@ -31,7 +35,8 @@ a {
   text-decoration: none;
   color: white;
 }
-section {
+section,
+nav {
   padding: 2% 15%;
 }
 body {
@@ -54,13 +59,14 @@ nav img {
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .navsticky {
   position: sticky;
   z-index: 1;
-  padding: 8px;
+  padding: 1% 15%;
   top: 0;
-  background-color: var(--nav-bg);
+  background-color: var(--card-bg);
 }
 
 .nav {
@@ -377,7 +383,8 @@ footer {
 svg:hover {
   color: var(--hover);
 }
-.git {
+.git,
+.cv-block {
   display: none;
 }
 @media only screen and (min-device-width: 300px) and (max-device-width: 1000px) {
@@ -393,6 +400,7 @@ svg:hover {
   .nav {
     display: none;
   }
+
   .work h5 {
     color: rgb(154, 154, 154);
   }
@@ -429,6 +437,7 @@ svg:hover {
   .aboutbg {
     align-items: center;
     justify-content: center;
+
     text-align: center;
   }
   .about {
@@ -445,7 +454,7 @@ svg:hover {
   }
 
   .skillsbg {
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
