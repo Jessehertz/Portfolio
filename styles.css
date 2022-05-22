@@ -11,7 +11,7 @@ body {
 
 .theme-dark {
   --main-bg: rgb(0, 0, 0);
-  --nav-bg: hsla(0, 0%, 6%, 0.646);
+  --nav-bg: hsl(0, 0%, 6%);
   --card-bg: hsla(0, 0%, 12%, 0.831);
   --ctatext: white;
   --font-color: white;
@@ -388,7 +388,25 @@ svg:hover {
 .cv-block {
   display: none;
 }
+.cv-down {
+  display: none;
+}
 @media only screen and (min-device-width: 300px) and (max-device-width: 1000px) {
+  .cvdown {
+    display: block;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cvdown {
+    padding: 15px 30px;
+    background-color: var(--font-color);
+    color: var(--main-bg);
+    border-radius: 10px;
+  }
+
   .mainbody {
     flex-direction: column-reverse;
     justify-content: space-evenly;
