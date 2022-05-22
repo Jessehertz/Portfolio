@@ -312,9 +312,7 @@ button:hover {
   transition: 0.3s ease-in;
 }
 .project img:hover {
-  transform: scale(
-    1.2
-  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.2);
 }
 .about-image {
   border: 0px solid rgb(89, 214, 219);
@@ -388,7 +386,7 @@ svg:hover {
 .cv-block {
   display: none;
 }
-.cv-down {
+.cvdown {
   display: none;
 }
 @media only screen and (min-device-width: 300px) and (max-device-width: 1000px) {
